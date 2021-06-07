@@ -1,8 +1,9 @@
 import './App.css';
 import { Switch, Route } from "react-router-dom";
-import LogIn from "./Components/LogIn"
-import Dashboard from "./Components/Dashboard/Dashboard"
-import Books from "./Components/Books/Books"
+import LogIn from "./pages/login/LogIn"
+import Dashboard from "./pages/Dashboard/Dashboard"
+import Books from "./pages/Books/Books"
+
 
 function App() {
   return (
